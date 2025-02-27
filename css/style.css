@@ -31,7 +31,7 @@ header {
 /* PHOTO GALLERY */
 
 #Gallery img {
-    max: .width;100%;   
+    max-width: 100%;   
 }
 #Gallery figure {
     text-align: center;
