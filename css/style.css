@@ -21,6 +21,7 @@ header {
 #Rush img {
     width: 250px;
 }
-#bio {
+#Bio {
+    font-size: 50px;
     text-align: center;
 }
