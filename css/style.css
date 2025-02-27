@@ -20,8 +20,19 @@ header {
 }
 #Rush img {
     width: 250px;
+    max-width: 100%;
 }
 #Bio {
     font-size: 50px;
+    text-align: center;
+}
+
+
+/* PHOTO GALLERY */
+
+#Gallery img {
+    max: .width;100%;   
+}
+#Gallery figure {
     text-align: center;
 }
