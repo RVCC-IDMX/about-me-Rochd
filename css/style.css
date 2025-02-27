@@ -1,3 +1,26 @@
 body {
-    background-color: red;
+    font-family:Caudex;
+    background-color: #61565b;
+    color: #5ccfe0;  
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family:Roboto Mono;
+    font-size: 45pt;
+}
+header {
+    text-align: center;
+}
+#Rush, footer {
+    border: solid #5ccfe0;
+    background-color: #8b6d68;
+    text-align: center;
+    padding: 50px;
+}
+#Rush img {
+    width: 250px;
+}
+#bio {
+    text-align: center;
 }
