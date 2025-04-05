@@ -2,6 +2,8 @@ body {
     font-family:Caudex;
     background-color: #61565b;
     color: white;  
+    margin-left: 12em;
+    margin-right: 12em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,7 +16,6 @@ header {
     text-align: center;
 }
 #Rush, footer {
-    border: solid #5ccfe0;
     background-color: #8b6d68;
     color: white;
     text-align: center;
@@ -30,22 +31,29 @@ header {
     color: white;
 }
 
+#Hobbies {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
 /* PHOTO GALLERY */
 
-#Gallery img {
-    max-width: 100%;   
+#Gallery {
+    max-width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-#Gallery figure {
-    text-align: center;
-}
-blockquote {
-    font-size: 1em ;
-    line-height: 150%;
-    color: gray;
-}
-
-body {
-    margin-left: 12em;
-    margin-right: 12em;
-    color: white;
+@media screen and (min-width: 60em); {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr; 
+    }
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: auto;
+        margin-left: 1rem;
+    }
 }
