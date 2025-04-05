@@ -1,12 +1,13 @@
 body {
     font-family:Caudex;
     background-color: #61565b;
-    color: #5ccfe0;  
+    color: white;  
 }
 
 h1, h2, h3, h4, h5, h6 {
 
     font-family:Roboto Mono;
+    color: white;
     font-size: 45pt;
 }
 header {
@@ -15,6 +16,7 @@ header {
 #Rush, footer {
     border: solid #5ccfe0;
     background-color: #8b6d68;
+    color: white;
     text-align: center;
     padding: 50px;
 }
@@ -25,8 +27,8 @@ header {
 #Bio {
     font-size: 50px;
     text-align: center;
+    color: white;
 }
-
 
 /* PHOTO GALLERY */
 
@@ -35,4 +37,15 @@ header {
 }
 #Gallery figure {
     text-align: center;
+}
+blockquote {
+    font-size: 1em ;
+    line-height: 150%;
+    color: gray;
+}
+
+body {
+    margin-left: 12em;
+    margin-right: 12em;
+    color: white;
 }
