@@ -11,13 +11,29 @@
 
 
     <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/nav.css" rel="stylesheet">
     
 </head>
 <body>
-    
     <header>
-        <img src="/img/BOB.svg" alt="Blue Origami Bird Logo">
-        <h1>Web Dev I</h1>
+        <nav class="navbar">
+            <div class="logo">
+                <img 
+                src="/img/BOB.svg" 
+                alt="A blue origami bird."
+                class="logo-img">
+                <h1 class="logo-title">Web Dev I</h1>
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a class="nav-links" href="#Bio">Bio</a></li>
+                    <li><a class="nav-links" href="#Hobbies">Hobbies</a></li>
+                    <li><a class="nav-links" href="#Gallery">Gallery</a></li>
+                    <li><a class="nav-links" href="#Blog">Blog</a></li>
+                    <li><a class="nav-links" href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
         <section id="Rush">
@@ -61,7 +77,7 @@
 
         </section>
 
-        <article>
+        <article id="Blog">
 
             <h2>Lipsum:</h2>
 
