@@ -39,11 +39,8 @@ header {
 
 /* PHOTO GALLERY */
 
-#Gallery {
-    max-width:100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
+
 @media screen and (min-width: 60em) {
     figure {
         display: grid;
@@ -55,5 +52,18 @@ header {
         align-items: center;
         font-size: auto;
         margin-left: 1rem;
+    }
+}
+@media screen and (min-width: 100em) {
+    #Gallery {
+        max-width:100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    figure {
+        display:block;
+    }
+    #Gallery h2 {
+        grid-column:1/-1;
     }
 }
