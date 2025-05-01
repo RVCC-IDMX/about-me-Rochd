@@ -41,6 +41,7 @@ main {
 .logo-img  {
     height: 7vw;
     width: 7vw;
+    padding: 1em;
 }
 .logo-title {
     font-size: 2em;
