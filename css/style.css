@@ -36,6 +36,24 @@ header {
     flex-direction: column; 
     align-items: center;
 }
+#resizable-box {
+    width: 200px;  /* Initial width */
+    height: 100px; /* Initial height */
+    background-color: #f0f0f0; /* A background for visibility */
+    border: 1px solid black;
+    position: relative; /* For resizing control */
+    
+  }
+#resizable-box::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background-color: blue; /* A visual indicator */
+    cursor: se-resize; /* Indicate that it can be dragged */
+}
 
 /* PHOTO GALLERY */
 

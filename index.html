@@ -106,14 +106,43 @@
             <div>
                 <h4>Pictures that move? Movies!</h4>
                 <p>
-
                     Animated scalable vector graphics are a type of image format that use math (ooo) to define shapes and colors instead of your regular pixels (png, jpg, jpeg).  This is useful in many ways; first, it allows you to resize the picture without compromising image quality.  Second, they can be animated which is something you’re unable to do with regular JPEGs.
                 </p>
-
                 <P>
                     Being able to resize a picture is especially useful because it allows you to add photos to your website that can be viewed by people with different devices without issue.  Most people browse the web using their phones so what may look appropriate on a laptop or desktop may be completely undone when viewed through a mobile device.
                 </P>
+                <h5>Here's an example</h5>
+                 <div id="resizable-box">
+                    <img src="/img/Example.svg" alt="An example of an SVG">
+                 </div>
+                <!--
+                 <script>
+                        document.getElementById('resizable-box').addEventListener('mousedown', function(event) {
+                            if (event.target === this.querySelector(':after')) {
+                                isResizing = true;
+                                startX = event.clientX;
+                                startWidth = this.offsetWidth;
+                                startHeight = this.offsetHeight;
+                            }
+                        });
+                        document.addEventListener('mousemove', function(event) {
+                        if (isResizing) {
+                            let newWidth = startWidth + (event.clientX - startX);
+                            let newHeight = startHeight + (event.clientY - startY);
 
+                            // Ensure the box doesn't become smaller than a certain size.
+                            newWidth = Math.max(newWidth, 100);
+                            newHeight = Math.max(newHeight, 50);
+
+                            document.getElementById('resizable-box').style.width = newWidth + 'px';
+                            document.getElementById('resizable-box').style.height = newHeight + 'px';
+                            }
+                        });
+                            document.addEventListener('mouseup', function() {
+                            isResizing = false;
+                      });
+                 -->
+                </script>
             </div>
         </article>
         <Section id="Contact">
